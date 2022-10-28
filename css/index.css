@@ -1,0 +1,112 @@
+.header, .section, .footer {
+    display: flex;
+}
+.header {
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.container {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 900; 
+    background: #484444;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: 35px 0;
+    color: #FFFF00;
+}
+
+.nav {
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-around;
+}
+
+.nav__link {
+    margin-left: 15px;
+    color: #000105;
+    font-size: 15px;
+}
+
+.Head_info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.about_me  {
+    max-width: 550px;
+}
+.photo_container img {
+    height: 600px;
+    border-radius: 25% 25% / 25% 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 24px;
+    color: #000105;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+.footer {
+    color: #000105;    
+}
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    color: #FFFF00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.icon {
+    background-color: white;
+    border-radius: 50%;
+}
+.git_icon {
+    background-color: white;
+    border-radius: 100%;
+    width: 31.99px;
+    height: 31.99px;
+}
+
+.in_icon {
+    background-color: white;
+    border-radius: 100%;
+    width: 31.99px;
+    height: 31.99px;
+}
+
+a {
+    width: 31.99px;
+    height: 31.99px;
+    background-color: #484444;
+    color: #484444;
+}
+
+
+
+
